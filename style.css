@@ -114,7 +114,12 @@ nav  li{
 }
 .banner-main{
     max-width: 500px;
-    
+}
+
+/* about */
+main{
+  max-width: 1000px;
+  margin: 0 auto;
 }
 .about{
     padding: 130px;
@@ -131,5 +136,31 @@ nav  li{
    font-weight: 700; 
 }
 .about-des{
+      padding-top: 20px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.about-info{
+    text-align: center;
+}
+
+/* What  */
+.what{
+    /* border: 2px solid black; */
+    background-color: #FFFDD0;
+}
+.what-head{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
 
 }
+.what-content{
+    padding: 15px 10px 0 10px;
+    /* border: 2px solid saddlebrown; */
+    
+}
+
