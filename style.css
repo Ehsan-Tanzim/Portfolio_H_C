@@ -1,0 +1,57 @@
+/* nav related style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+.text-color{
+    color: purple;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+
+}
+nav  li{
+    list-style: none;
+    margin-right: 50px;
+    
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    background: purple;
+    border: 0;
+    color: antiquewhite;
+    padding: 15px 35px;
+    
+}
+
+
+/* header related style */
+.header{
+    background-color:#FFFDD0 ;
+}
+.banner{
+    display: flex;
+    padding: 50px 50px 50px 150px;
+    align-items: center;
+    border: 5px solid black;
+    
+     
+}
+.profile{
+    width: 300px;
+}
