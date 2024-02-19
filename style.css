@@ -207,4 +207,42 @@ main{
 }
 .cv-btn{
     text-align: center;
+    margin-top: 30px;    
+}
+.cv-btnn{
+    /* text-align: center;     */
+    width: 150px;
+    height: 50px;
+    background: purple;
+    border: 0;
+    color: antiquewhite;
+    padding: 15px 35px;
+}
+footer{
+        padding: 130px 200px;
+        background-color: #FFFDD0;
+        margin-top: 30px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    margin-top: 30px;
+} 
+.footer-title{
+    margin-bottom: 20px;
+}
+.social{
+    margin-top: 20px;
+}
+.social a{
+    margin-right: 24px;
+}
+.form input[type="text"],.form input[type="email"],textarea{
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    border: 0;
+    display: block;
 }
